@@ -1,3 +1,4 @@
+./gradlew -version
 buildscript {
     repositories {
         jcenter()
