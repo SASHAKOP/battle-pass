@@ -60,3 +60,8 @@ shadowJar {
     relocate 'me.hyfe.simplespigot', "io.github.battlepass.simplespigot"
     relocate 'org.bstats', "io.github.battlepass.bstats"
 }
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
